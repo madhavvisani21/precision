@@ -1,0 +1,59 @@
+.carousel-main {
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.rec-arrow:hover {
+  border-radius: 50%;
+  background-color: #007BFF; /* Bright blue for hover */
+  color: #fff;
+}
+
+.carousel-wrapper {
+  width: 100%;
+  background-color: #f5f7fa;
+  padding: 80px 5px 50px 5px;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid #333;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media all and (min-width: 400px) and (max-width: 900px) {
+  .carousel-wrapper {
+    width: 100%;
+    background-color: #f5f7fa;
+    padding: 80px 5px 50px 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -10px;
+  }
+}
+
+@media all and (min-width: 900px) and (max-width: 920px) {
+  .carousel-wrapper {
+    width: 100%;
+    background-color: #f5f7fa;
+    padding: 80px 5px 80px 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: -400px;
+  }
+}
+
+@media all and (min-width: 920px) and (max-width: 1100px) {
+  .carousel-wrapper {
+    width: 100%;
+    background-color: #f5f7fa;
+    padding: 80px 5px 530px 5px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 150px;
+  }
+}
